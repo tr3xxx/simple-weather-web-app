@@ -1,0 +1,238 @@
+
+:root {
+    --MAIN-bg-color: #121212;
+    --CARD-color: #121212;
+    --MAIN-text-color: white;
+    --ERROR-text-color: red;
+}
+
+body {
+    text-align: center;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' style='margin:auto;background:%2317191a;display:block;z-index:1;position:relative' width='1920' height='937' preserveAspectRatio='xMidYMid' viewBox='0 0 1920 937'%3e%3cg transform='translate(960,468.5) scale(1,1) translate(-960,-468.5)'%3e%3cdefs%3e%3cfilter id='blur-b1jj9xucar9-1' x='-1' y='-1' width='3' height='3'%3e%3cfeGaussianBlur stdDeviation='3'%3e%3c/feGaussianBlur%3e%3c/filter%3e%3cfilter id='blur-b1jj9xucar9-2' x='-1' y='-1' width='3' height='3'%3e%3cfeGaussianBlur stdDeviation='1.5'%3e%3c/feGaussianBlur%3e%3c/filter%3e%3cfilter id='blur-b1jj9xucar9-3' x='-1' y='-1' width='3' height='3'%3e%3cfeGaussianBlur stdDeviation='1'%3e%3c/feGaussianBlur%3e%3c/filter%3e%3c/defs%3e%3ccircle cx='1389.730935752585' cy='0' transform='translate(0 562.6260560607776)' r='4.464385002731764' fill='%23aabbcc' opacity='0.36000000000000004'%3e%3canimateTransform attributeName='transform' type='translate' begin='-9.566517293585498s' dur='20s' repeatCount='indefinite' keyTimes='0;1' values='0 941.4643850027318;0 -4.464385002731764'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='1083.3201496987206' cy='0' transform='translate(0 621.608981289585)' r='15.331733104478841' fill='%23bbddff' opacity='0.7200000000000001'%3e%3canimateTransform attributeName='transform' type='translate' begin='-5.150846577938561s' dur='6.666666666666666s' repeatCount='indefinite' keyTimes='0;1' values='0 952.3317331044789;0 -15.331733104478841'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='114.08404630315346' cy='0' transform='translate(0 210.3291546665863)' r='5.414007809225503' fill='%23aabbcc' opacity='0.36000000000000004'%3e%3canimateTransform attributeName='transform' type='translate' begin='-4.446941555969426s' dur='20s' repeatCount='indefinite' keyTimes='0;1' values='0 942.4140078092255;0 -5.414007809225503'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='918.9454477335051' cy='0' transform='translate(0 57.21609168833353)' r='13.124604157400345' fill='%23ddeeff' opacity='0.7200000000000001'%3e%3canimateTransform attributeName='transform' type='translate' begin='-1.137316657570837s' dur='6.666666666666666s' repeatCount='indefinite' keyTimes='0;1' values='0 950.1246041574003;0 -13.124604157400345'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='293.43087820528' cy='0' transform='translate(0 634.381143473229)' r='5.607481610939963' fill='%23ddeeff' opacity='0.36000000000000004'%3e%3canimateTransform attributeName='transform' type='translate' begin='-18.36086163668986s' dur='20s' repeatCount='indefinite' keyTimes='0;1' values='0 942.60748161094;0 -5.607481610939963'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='275.4578428020474' cy='0' transform='translate(0 182.16963561650084)' r='10.403400347277621' fill='%23ddeeff' opacity='0.63'%3e%3canimateTransform attributeName='transform' type='translate' begin='-4.86928284294345s' dur='10s' repeatCount='indefinite' keyTimes='0;1' values='0 947.4034003472776;0 -10.403400347277621'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='1358.5670979985293' cy='0' transform='translate(0 341.5354886084098)' r='13.873226699302261' fill='%23bbddff' opacity='0.7200000000000001'%3e%3canimateTransform attributeName='transform' type='translate' begin='-1.6978239344908126s' dur='6.666666666666666s' repeatCount='indefinite' keyTimes='0;1' values='0 950.8732266993022;0 -13.873226699302261'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='102.40259450786425' cy='0' transform='translate(0 935.9258119207882)' r='14.293151938096216' fill='%23bbddff' opacity='0.7200000000000001'%3e%3canimateTransform attributeName='transform' type='translate' begin='-2.75275252855919s' dur='6.666666666666666s' repeatCount='indefinite' keyTimes='0;1' values='0 951.2931519380962;0 -14.293151938096216'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='304.8729979696917' cy='0' transform='translate(0 158.14713630548331)' r='8.369213449820961' fill='%23aabbcc' opacity='0.63'%3e%3canimateTransform attributeName='transform' type='translate' begin='-3.4804162765821056s' dur='10s' repeatCount='indefinite' keyTimes='0;1' values='0 945.369213449821;0 -8.369213449820961'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='312.4806510799783' cy='0' transform='translate(0 475.44646991703814)' r='14.337462161450933' fill='%23ddeeff' opacity='0.7200000000000001'%3e%3canimateTransform attributeName='transform' type='translate' begin='-4.325892123807726s' dur='6.666666666666666s' repeatCount='indefinite' keyTimes='0;1' values='0 951.337462161451;0 -14.337462161450933'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='1265.9388381479746' cy='0' transform='translate(0 281.66954459586213)' r='7.168185844963839' fill='%23ddeeff' opacity='0.36000000000000004'%3e%3canimateTransform attributeName='transform' type='translate' begin='-6.830937195253495s' dur='20s' repeatCount='indefinite' keyTimes='0;1' values='0 944.1681858449639;0 -7.168185844963839'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='844.8237908587494' cy='0' transform='translate(0 134.76166283324508)' r='6.332127012488455' fill='%23aabbcc' opacity='0.36000000000000004'%3e%3canimateTransform attributeName='transform' type='translate' begin='-12.197542717769597s' dur='20s' repeatCount='indefinite' keyTimes='0;1' values='0 943.3321270124884;0 -6.332127012488455'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='635.7226583638133' cy='0' transform='translate(0 495.2991143681466)' r='12.933452863422346' fill='%23bbddff' opacity='0.7200000000000001'%3e%3canimateTransform attributeName='transform' type='translate' begin='-1.8433297427932114s' dur='6.666666666666666s' repeatCount='indefinite' keyTimes='0;1' values='0 949.9334528634223;0 -12.933452863422346'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='1211.8077212539358' cy='0' transform='translate(0 486.2880850324004)' r='11.613947504299697' fill='%23bbddff' opacity='0.63'%3e%3canimateTransform attributeName='transform' type='translate' begin='-9.28621821405049s' dur='10s' repeatCount='indefinite' keyTimes='0;1' values='0 948.6139475042997;0 -11.613947504299697'%3e%3c/animateTransform%3e%3c/circle%3e%3ccircle cx='1006.3518740621463' cy='0' transform='translate(0 32.30410567132659)' r='6.072872712564996' fill='%23bbddff' opacity='0.36000000000000004'%3e%3canimateTransform attributeName='transform' type='translate' begin='-2.407681339855343s' dur='20s' repeatCount='indefinite' keyTimes='0;1' values='0 943.072872712565;0 -6.072872712564996'%3e%3c/animateTransform%3e%3c/circle%3e%3c/g%3e%3c/svg%3e");
+    display: flex;
+    justify-content: center;
+    color: var(--MAIN-text-color);
+}
+
+/* Add a shadow effect to the search bar */
+.search-bar {
+    scale: 2;
+    border-radius: 10px;
+    margin: 50px;
+    text-align: center;
+}
+
+.title {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: var(--CARD-color);
+}
+
+/* Style the search bar */
+.search-bar input[type="text"] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the search button */
+.search-button {
+    width: 20%;
+    background-color: #121212;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the search button when it is hovered */
+.search-bar button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.error {
+    color: var(--ERROR-text-color);
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    background-color: var(--MAIN-bg-color);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card-content {
+    display: grid;
+}
+
+.card h2 {
+    color: var(--MAIN-text-color);
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.card-content > * {
+    margin: 10px;
+}
+
+.card p {
+    line-height: 0.25;
+}
+
+.top-left:hover,
+.top-right:hover,
+.bottom-left:hover,
+.bottom-right:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--CARD-color);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.weather-icon {
+    width: 10vw;
+    height: 10vh;
+}
+
+.city {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.description {
+    text-align: left;
+    flex-direction: column;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.local-time {
+    text-align: left;
+    font-size: 14px;
+}
+
+.top-right {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--CARD-color);;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.last-updated {
+    font-size: 9px;
+    color: gray;
+}
+
+.temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.temperature-info {
+    font-size: 14px;
+}
+
+.sun {
+    justify-content: space-between;
+    width: 100%;
+    font-size: medium;
+}
+
+.humidity {
+    justify-content: space-between;
+    width: 100%;
+    font-size: medium;
+}
+
+.bottom-left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--CARD-color);;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.bottom-right {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--CARD-color);;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    width: 18.25%; /* adjust this value to control the size of the cards */
+    margin: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.forecast-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.forecast-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: var(--MAIN-bg-color);
+}
+
+.forecast-date {
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.forecast-icon {
+    width: 2em;
+    height: 2em;
+    margin-bottom: 0.5em;
+}
+
+.forecast-top p:last-of-type {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    color: white;
+}
