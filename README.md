@@ -3,7 +3,7 @@
 A weather app built with React.js that displays the current and forecasted weather for a location. The app utilizes the OpenWeatherMap API to fetch the weather data.
 ## Demo
 
-A demo of the app is available at [https://tr3xxx.github.io/simple-weather-app/](https://tr3xxx.github.io/simple-weather-app/)
+A demo of the app is available at [https://tr3xxx.github.io/simple-weather-app/](https://tr3xxx.github.io/simple-weather-web-app/)
 
 
 ## Features
@@ -20,7 +20,7 @@ A demo of the app is available at [https://tr3xxx.github.io/simple-weather-app/]
 
 To run the app on your local machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/tr3xxx/simple-weather-app`
+1. Clone the repository: `git clone https://github.com/tr3xxx/simple-weather-web-app`
 2. Navigate to the repository directory: `cd simple-weather-app`
 3. Install the dependencies: `npm install`
 4. Start the app: `npm start`
