@@ -3,7 +3,7 @@
 A weather app built with React.js that displays the current and forecasted weather for a location. The app utilizes the OpenWeatherMap API to fetch the weather data.
 ## Demo
 
-A demo of the app is available at [https://tr3xxx.github.io/simple-weather-app/](https://tr3xxx.github.io/simple-weather-web-app/)
+A demo of the app is available at [https://tr3xxx.github.io/simple-weather-app/](https://tr3xxx.github.io/simple-weather-web-app/build)
 
 
 ## Features
