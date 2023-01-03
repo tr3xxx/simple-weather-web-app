@@ -183,7 +183,7 @@ function WeatherApp() {
     return (
         <div className="App">
             <main>
-                <h1 className="title">Simple Weather App   <a href="https://github.com/tr3xxx/simple-weather-app"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" width="32" height="32" /></a></h1>
+                <h1 className="title">Simple Weather App <br />  <a href="https://github.com/tr3xxx/simple-weather-app"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" width="32" height="32" /></a></h1>
 
                 <div className="search-box">
                     <form onSubmit={handleSubmit}>
@@ -236,6 +236,7 @@ function WeatherApp() {
                         <h2>5-Day Forecast</h2>
                         <div className="forecast-container">
 
+                            {/* eslint-disable-next-line array-callback-return */}
                             {forecastData.list.map((forecast, index) => { // map through forecast data
                                 if (index % 8 === 0) { // only display data for every 8th item in the array (every 3 items is a new day)
                                     let forecastTemp = forecast.main.temp - 273.15; // API returns temperature in Kelvin, so we need to convert it to Celsius.
@@ -246,6 +247,7 @@ function WeatherApp() {
                                         <div className="forecast-top">
                                             <p className="forecast-date">{forecast.dt_txt.replace("12:00:00","")}</p> {/* API returns date and time, so we need to remove the time */}
                                             <img src={`http://openweathermap.org/img/w/${forecast.weather[0].icon}.png`} alt="Weather icon" className="forecast-icon" /> {/* API returns weather icon code with which we can display the icon via their API. */}
+                                            <p>{forecast.weather[0].main}</p>
                                             <p>{output_city}</p> {/* Display city name */}
                                             <p>{forecastTempC}°C/{forecastTempF}°F</p> {/* Display temperature in Celsius and Fahrenheit */}
                                         </div>
@@ -260,11 +262,10 @@ function WeatherApp() {
                         <p>{Error}</p> {/* Display error message */}
                     </div>
                 ) : null}
-                <p>Copyright © Leon Burghardt, 2020-2022. All Rights reserved</p> {/* Copyright stuff */}
+                <p>Copyright © Leon Burghardt, {new Date().getFullYear()}. All Rights reserved</p> {/* Copyright stuff */}
 
             </main>
         </div>
     );
 }
-
 export default WeatherApp;
