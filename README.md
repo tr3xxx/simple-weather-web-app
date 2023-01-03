@@ -1,4 +1,4 @@
-# Simple Weather Webapp
+# Simple Weather Web App
 
 A weather app built with React.js that displays the current and forecasted weather for a location. The app utilizes the OpenWeatherMap API to fetch the weather data.
 ## Demo
